@@ -109,12 +109,12 @@ Our results demonstrate that advanced machine learning models can accurately pre
 | Model                | Accuracy | Precision | Recall | F1-score | ROC-AUC |
 |----------------------|----------|-----------|--------|----------|---------|
 | Logistic Regression  | 0.74     | 0.48      | 0.38   | 0.42     | 0.74    |
-| Random Forest        | 0.81     | 0.67      | 0.54   | 0.60     | 0.85    |
-| SVM                  | 0.81     | 0.67      | 0.54   | 0.60     | 0.85    |
-| XGBoost              | 0.83     | 0.72      | 0.58   | 0.64     | 0.87    |
-| Random Forest (Tuned)| 0.82     | 0.70      | 0.56   | 0.62     | 0.86    |
-| SVM (Tuned)          | 0.82     | 0.70      | 0.56   | 0.62     | 0.86    |
-| XGBoost (Tuned)      | 0.84     | 0.74      | 0.60   | 0.66     | 0.88    |
+| Random Forest        | 0.92     | 0.90      | 0.71   | 0.79     | 0.93    |
+| SVM                  | 0.86     | 0.65      | 0.78   | 0.71     | 0.91    |
+| XGBoost              | 0.93     | 0.92      | 0.72   | 0.81     | 0.94    |
+| Random Forest (Tuned)| 0.92     | 0.90      | 0.71   | 0.79     | 0.93    |
+| SVM (Tuned)          | 0.87     | 0.67      | 0.76   | 0.71     | 0.90    |
+| XGBoost (Tuned)      | 0.92     | 0.87      | 0.76   | 0.81     | 0.94    |
 
 ## Conclusion
 This project demonstrates a comprehensive approach to credit risk prediction using modern machine learning techniques. Starting from raw data, we performed thorough data cleaning, handled missing values and outliers, addressed class imbalance, and engineered features using PCA to reduce multicollinearity. We encoded categorical variables, scaled numerical features, and split the data into training and test sets for robust evaluation.
